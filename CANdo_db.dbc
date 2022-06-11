@@ -1,0 +1,54 @@
+VERSION "Test DVB to be used with CANdo CAN BUS simulator, based on BMW_e9x"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 416 Speed: 8 XXX
+ SG_ VehicleSpeed : 0|12@1+ (0.103,0) [0|255] "kph" XXX
+
+BO_ 502 TurnSignals: 2 XXX
+ SG_ RightTurn : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ LeftTurn : 4|1@1+ (1,0) [0|1] "" XXX
+
+BO_ 660 Doors: 2 XXX
+ SG_ DoorState : 7|1@0+ (1,0) [0|0] "-" Vector__XXX
+
+BO_ 720 HeadLights: 2 XXX
+ SG_ LightState : 7|1@0+ (1,0) [0|0] "-" Vector__XXX
+
+VAL_ 660 DoorState 0 "Closed" 1 "Open" ;
+
+VAL_ 720 LightState 0 "Off" 1 "On" ;

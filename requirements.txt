@@ -1,0 +1,4 @@
+pygame~=2.0.1
+can~=0.0.0
+python-can~=3.3.4
+cantools~=36.4.0
