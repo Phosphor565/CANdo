@@ -29,3 +29,9 @@ The following arguments can be used to change how CANdo runs
 - -g = if you wish to use a gamepad
 - -X = Dissables background noise (cheating if your practicing reverse engineering CAN signals)
 - -d = Difficulty, the following difficulties can be set 1 = EASY, 2 = MEDIUM, 3 = HARD (Medium is default), the harder the difficulty the more background noise
+
+### Running CANdo with a keyboard
+![CANdo_Keyboard](/images/CANdo_Keyboard.png)
+
+### Running CANdo with a gamepad
+![CANdo_Controller](/images/CANdo_controller.png)
